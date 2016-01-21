@@ -7,8 +7,18 @@
 //
 
 #import "DieViewController.h"
+#import "DieLabel.h"
+
+
+
 
 @interface DieViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *dieOne;
+@property (weak, nonatomic) IBOutlet UILabel *dieTwo;
+@property (weak, nonatomic) IBOutlet UILabel *dieThree;
+@property (weak, nonatomic) IBOutlet UILabel *dieFour;
+@property (weak, nonatomic) IBOutlet UILabel *dieFive;
+@property (weak, nonatomic) IBOutlet UILabel *dieSix;
 
 @end
 
@@ -16,22 +26,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)onTappedRollDice:(UIButton *)sender
+{
+
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
