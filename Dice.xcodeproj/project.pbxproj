@@ -13,6 +13,8 @@
 		E17792F31C51716E00691D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17792F11C51716E00691D19 /* Main.storyboard */; };
 		E17792F51C51716E00691D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17792F41C51716E00691D19 /* Assets.xcassets */; };
 		E17792F81C51716E00691D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17792F61C51716E00691D19 /* LaunchScreen.storyboard */; };
+		E17793011C5190D500691D19 /* DieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17793001C5190D500691D19 /* DieViewController.m */; };
+		E17793041C5193A600691D19 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E17793031C5193A600691D19 /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E17792F41C51716E00691D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17792F71C51716E00691D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E17792F91C51716E00691D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17792FF1C5190D500691D19 /* DieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieViewController.h; sourceTree = "<group>"; };
+		E17793001C5190D500691D19 /* DieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieViewController.m; sourceTree = "<group>"; };
+		E17793021C5193A600691D19 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
+		E17793031C5193A600691D19 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				E17792EC1C51716E00691D19 /* AppDelegate.m */,
 				E17792EE1C51716E00691D19 /* ViewController.h */,
 				E17792EF1C51716E00691D19 /* ViewController.m */,
+				E17793021C5193A600691D19 /* DieLabel.h */,
+				E17793031C5193A600691D19 /* DieLabel.m */,
 				E17792F11C51716E00691D19 /* Main.storyboard */,
+				E17792FF1C5190D500691D19 /* DieViewController.h */,
+				E17793001C5190D500691D19 /* DieViewController.m */,
 				E17792F41C51716E00691D19 /* Assets.xcassets */,
 				E17792F61C51716E00691D19 /* LaunchScreen.storyboard */,
 				E17792F91C51716E00691D19 /* Info.plist */,
@@ -151,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17792F01C51716E00691D19 /* ViewController.m in Sources */,
+				E17793041C5193A600691D19 /* DieLabel.m in Sources */,
 				E17792ED1C51716E00691D19 /* AppDelegate.m in Sources */,
 				E17792EA1C51716E00691D19 /* main.m in Sources */,
+				E17793011C5190D500691D19 /* DieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
