@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DieLabel.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 

@@ -13,12 +13,11 @@
 
 
 @interface DieViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *dieOne;
-@property (weak, nonatomic) IBOutlet UILabel *dieTwo;
-@property (weak, nonatomic) IBOutlet UILabel *dieThree;
-@property (weak, nonatomic) IBOutlet UILabel *dieFour;
-@property (weak, nonatomic) IBOutlet UILabel *dieFive;
-@property (weak, nonatomic) IBOutlet UILabel *dieSix;
+@property (strong, nonatomic) IBOutletCollection(DieLabel) NSArray *diceLabels;
+
+//@property (weak, nonatomic) IBOutlet DieLabel *dieLabel;
+
+
 
 @end
 
@@ -28,10 +27,9 @@
     [super viewDidLoad];
 }
 
-- (IBAction)onTappedRollDice:(UIButton *)sender
-{
 
-
+- (IBAction)onTapRollDice:(UIButton *)sender {
+    
 }
 
 

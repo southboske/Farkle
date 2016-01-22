@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DieViewController : UIViewController
+@property NSArray *dice;
+
+
 
 @end
